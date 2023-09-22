@@ -1,0 +1,31 @@
+.tintuc {
+    text-align: center;
+    min-height: 340px;
+    height: 80vh;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.tintuc:hover {
+    box-shadow: 5px 5px 5px #fcbc30;
+}
+
+.tintuc h3 {
+    color: #0d0d25;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btnxemthem:hover {
+    background-color: #fcbc30;
+}
+.chitiet{
+    border-top: 1px solid #fcbc30;
+    width: 80%;
+    margin: 25px auto;
+}
+.imgchitiet{
+    box-shadow: 3px 3px 5px gray;
+
+}
