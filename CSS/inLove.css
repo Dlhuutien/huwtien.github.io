@@ -9,41 +9,37 @@ img {
     text-align: center;
     color: #ec407a;
     /* Logo */
-    font-size: 50px;
+    font-size: 49px;
     line-height: 150px;
     text-shadow: -1px -1px rgb(247, 247, 18), 1px 1px #d60, -3px 0 4px #000;
     font-family: "Segoe print", Arial, Helvetica, sans-serif;
     color: #ed0c97;
-    padding: 32px;
     font-weight: lighter;
     text-align: center;
-    display:inline;
+    display:inline;  
 }
 
-#wrapper {
+/* #wrapper {
     display: grid;
     grid-column: 3 / 11;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(auto, auto);
     grid-row-gap: 10px;
     margin-top: 3.6rem;
-}
+} */
 
-#clock-box,
+/* #clock-box,
 #info {
     grid-column: span 3;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-}
+} */
 
 #clock-box #clock {
-    grid-column: 4 / 10;
     background-color: #F8C8C8;
-    padding: .6rem 2rem;
-    padding-top: .8rem;
     text-align: center;
-    font-size: 2.4rem;
-    border-radius: 10rem;
+    border-radius: 50px;
+    border: wheat 5px solid;
 }
 
 
@@ -167,6 +163,12 @@ footer {
     border: 4px solid white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+#clock {
+    text-align: center;
+    border: black solid;
+    border-radius: 50px;
+    margin-left: 30px;
+}
 
 /*  */
 
@@ -193,7 +195,7 @@ body {
 
 header {
     background-color: antiquewhite;
-    height: 1200px;
+    height: 900px;
     position: relative;
     overflow: hidden;
     /* background: url(/huwtien.github.io/IMG/img_background.jpg); */
@@ -201,14 +203,14 @@ header {
     background-size: cover;
 }
 
-header .content {
+/* header .content {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 1;
-}
+} */
 
 header h1,
 header h2 {
@@ -233,10 +235,14 @@ header hgroup {
     left: 50%;
     color: #fff;
     border: 5px solid #fff;
-    padding: .5em 3em;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
     background-image: url(/huwtien.github.io/IMG/img_background.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 90%;
+    height: 90%;
 }
 
 header .overlay {
