@@ -1,7 +1,9 @@
 img {
     max-width: 100%;
 }
-
+hientai{
+    color: red;
+}
 .logo {
     width: 1000px;
     font-weight: lighter;
@@ -220,7 +222,7 @@ header h2 {
     margin-top: -.5em;
 }
 
-/* header hgroup {
+header hgroup {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -237,7 +239,7 @@ header h2 {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
     background-image: url(/huwtien.github.io/IMG/img_background.jpg);
-} */
+}
 
 header .overlay {
     position: absolute;
@@ -310,3 +312,5 @@ img {
 h5 {
     padding: 10px;
 }
+
+/*  */

@@ -9,74 +9,163 @@
     <script src="JS/bootstrap.js"></script>
     <script src="JS/inLove.js"></script>
     <link rel="stylesheet" href="CSS/inLove.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Together</title>
     <script src="JS/tintuc.js"></script>
-    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <style>
+        /* Điều chỉnh cho các màn hình có chiều rộng dưới 768px (điện thoại di động) */
+        @media (max-width: 768px) {
+            header hgroup {
+                font-size: 24px;
+                padding: 0.5em 1em;
+            }
+
+            .avt {
+                width: 100px;
+                height: 100px;
+            }
+
+            #info {
+                padding: 10px;
+                margin-top: 1rem;
+            }
+
+            #heart {
+                font-size: 32px;
+                padding-bottom: 1rem;
+            }
+
+            footer {
+                font-size: 1rem;
+            }
+
+            /* Thêm các điều chỉnh khác tùy thuộc vào nhu cầu của bạn */
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <div class="content">
-            <hgroup>
-                <div id="wrapper">
-                    <h1 class="logo">LOVE DAYS</h1>
-                    <div id="clock-box">
-                          <div id="clock">
+    <div class="a">
+        <header>
+            <div class="content">
+                <hgroup>
+                    <div id="wrapper">
+                        <h1 class="logo">LOVE DAYS</h1>
+                        <div id="clock-box">
+                            <div id="clock">
                                 <date>0 DAYS</date>
                                 <time>00:00:00</time>
-                           </div>
-                     </div>
-                     
-                     <div id="info">
-                           <div class="one">
-                                 <img src="img/main.jpg" class="avt">
-                                 <p class="Name">Đặng Lê Hữu Tiến</p>
-                           </div>
-                           <div id="heart">
+                            </div>
+                        </div>
+
+                        <div id="info">
+                            <div class="one">
+                                <img src="img/main.jpg" class="avt">
+                                <p class="Name">Đặng Lê Hữu Tiến</p>
+                            </div>
+                            <div id="heart">
                                 <div class="Tym">❤</div>
                                 <anni>...</anni>
-                           </div>
-                           <div class="two">
-                                 <img src="img/main2.jpg" class="avt">
-                                 <p class="Name">Nguyễn Thị Trúc Ly</p>
-                           </div>
-                     </div>
-                     
-                     <div id="music">
-                           <audio loop autoplay controls>Your browser does not support the audio element.</audio>
-                     </div>
-                     <footer>Thank you for your love 💕</footer>
-               </div> 
-               
-               <script src="JS/inLove.js"></script>
-            </hgroup>
-        </div>
-        <div class="overlay"></div>
-    </header>
-    <div class="container">
-        <section class="site">
+                            </div>
+                            <div class="two">
+                                <img src="img/main2.jpg" class="avt">
+                                <p class="Name">Nguyễn Thị Trúc Ly</p>
+                            </div>
+                        </div>
+
+                        <div id="music">
+                            <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+                        </div>
+                        <footer>Thank you for your love 💕</footer>
+                    </div>
+
+                    <script src="JS/inLove.js"></script>
+                </hgroup>
+            </div>
+            <div class="overlay"></div>
+        </header>
+        <div class="container">
+            <section class="site">
                 <nav>
-                    <!-- <a href="index.html">Home</a> -->
+                    <a href="index.html">Home</a>
                     <a href="Test.html">Test</a>
-                     <a href="introduce.html">Introduce</a>
-                    <!-- <a href="story.html">Story</a> -->
-                    <input type="button" class="btnxemthem" value="Home" onclick="showNews('Home')">
-                    <!-- <input type="button" class="btnxemthem" value="Introduce" onclick="showNews('Introduce')"> -->
-                    <input type="button" class="btnxemthem" value="Story" onclick="showNews('Story')">
+                    <a href="introduce.html">Introduce</a>
+                    <a href="story.html">Story</a>
                 </nav>
-            <blockquote>
-                <img class="img1" src="IMG/MaQR.jpg" alt="" width="200px" align="left">
-                “I invented nothing new. I simply assembled the discoveries of other men behind whom were centuries of work. Had I worked fifty or ten or even five years before, I would have failed. So it is with every new thing. 
-                Progress happens when all the factors that make for it are ready, and then it is inevitable. To teach that a comparatively few men are responsible for the greatest forward steps of mankind is the worst sort of nonsense.”
-            
-                <div id="news" style="margin-top: 200px;"></div><br><br>
-            </blockquote>
-        </section>
-    </div>
-    <div class="col-12">
-        <h1>Dang Le Huu Tien</h1>
-        
+                <blockquote></blockquote>
+           
+            <h5>
+                Ngày <hientai>0</hientai>, 2 đứa tui đang "Yêu Xa" khoảng cách khá là xa đó, có bạn nào nghĩ
+                1 người
+                ở Nam còn người kia ở Bắc không nhể.
+                Hummmmm! Thật ra 1 người ở Việt Nam còn 1 người ở bên Hàn cơ:>> <br>
+                Chắc mn muốn biết lý do tại sao 2 tui đến với nhau được chứ giề. Tui là Hữu Tiến neeee trang
+                web này
+                tui viết ra để ôn lại kỷ niệm của tui với bồ yêu ó,
+                giờ tui sẽ cho mn biết câu chuyện tềnh yêu liền liền đâyyyy <br>
+                Tui xưng là t đi cho tình cảm hénnn
+            </h5>  
+                <div>
+                    <h4>Chaaaaa <span style="color: red;">11/07/2023</span>, tròn 100 ngày 2 đứa yêu nhau nè. Hạnh phúc
+                    qué đi thoaiiii❤️‍🔥viết văn cho bé xài hết chất xám rồi á, bé mắc cười lúc tui ăn bột ngọt mới
+                    ghê:>> </h4>
+                <img class="img1" src="IMG/MaQR.jpg" alt="" width="100px" style="float: left;">
+                <h5>
+                    Nội dung của mã QR nèeeee, biết ai viết khumm:>> Đọc đi gòi biết nhoaaa<br>
+                    Bé yêu của anh ơiiii! Nay cũng tròn 100 ngày 2 đứa mình yêu nhau rồi, anh cố gắng để 2
+                    đứa không phải dừng lại ở con số 200, 500, 1000 ngày gì cả…Tại anh muốn sau này khái
+                    niệm tình yêu của chúng mình hong tính bằng ngày, bằng tháng hay năm gì hết, mà anh muốn
+                    tính bằng kiếp người cơ👉🏻👈🏻 <br>
+                    Ehe cảm ơn bé đã cho anh biết cảm giác yêu với ghen là gì nha. Thề lunnn, em đi với bạn
+                    nam cái trong người anh nó nhói nhói khó chịu cực🤣 <br>
+                    Đầu óc anh cũng thuộc dạng não cá vàng lắm, có cái nhớ có cái khum. Hicccc tại hồi đó
+                    anh ghiền bột ngọt á em, canh lúc mẹ k để ý anh bay lại rổ gia vị anh bỏ nguyên muỗng vô
+                    họng thì thứ gì chịu nũi. Mong bé thông cảm cho anh nhoé <br>
+                    Đối với anh á, em là 1 cô bé tinh nghịch nè mà em lại rất đáng yêu nữa chớ. Eooo ôiiii
+                    em kêu “meo meo” với nói “hỏng hèm” dễ thương xỉu ó. Mà…bé tánh hơi lóng nhe🤣em lên
+                    giọng phát là Hữu Tiến câm như hến. Thoaiii vậy cũng đuộc, tại anh cũng thuộc cung xử nữ
+                    mà, tính anh cầu toàn nè hay đi chơi đêm nè với ít khi nào sửa đổi vì ai lắm, em là
+                    người đầu tiên khiến anh ít đi chơi với sửa đổi cái nết lại á <br>
+                    Anh cũng xin lỗi em vì hiện tại em không có anh ở bên em nha, thanh xuân này lại để em
+                    chịu thiệt rồi🥲em là người đầu tiên anh yêu cũng là lần đầu anh yêu xa nên anh còn
+                    nhiều cái ngu ngơ lắm á. Hiccc cô gái anh yêu có nhiều thiệt thòi quá đi á. Mà em yên
+                    tâm đi, anh luôn cố gắng hoàn thiện bản thân mình nè:>> Sau này anh bám em yêu hoài lun
+                    để anh bù đắp lại thiệt thòi cho em yêu hénn <br>
+                    Awww thoaiii tới giờ chốt câu cuối ờiiii <br>
+                    Khoảng cách địa lý nó không có hề hấn gì tình yêu 2 đứa mình cả (3500km tuổi), quan
+                    trọng là con tym của anh luôn hướng về em yêu đoá. À còn nữa còn nữa, anh muốn nói là: <br>
+                    ❤️‍🔥ANH YÊU EM❤️‍🔥
+                </h5>
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="IMG/2908v1.jpg" alt="" width="40%" style="float: left;">
+                            <img src="IMG/2908v2.jpg" alt="" width="40%" style="float: left;">
+                        </td>
+                        <td>
+                            <h5>
+                                <span style="color: red;">29/08/2023</span>, Ngày này là sinh nhật Hữu Tiến ó. Bé ơiiii, 
+                                anh đọc được lá thư của em gòi nè anh cảm ơn em nheee.
+                            </h5>
+                        </td>
+                    </tr>
+                </table>
+                <h5>
+                    <span style="color: red;">02/09/2023</span>, bé về lại Hàn Quốc mất tiêu òiii🥲 bé Ly về chỉ có 2 tuần thoai mà anh ghiền hơi của em quá trời quá đất. 
+                    Thật sự anh không muốn xa em đâu, ngày mà em đi 2 đứa phải về lại quỹ đạo cũ rồi sao; Anh muốn được về lại Củ Chi quê em chơi lắm, mà anh không dám...Nó chứa nhiểu kỉ niệm của anh với em quá, 
+                    2 tuần ở bên em thật sự khiến anh hạnh phúc á em cóa biết khum:>>
+                    <br>Đã hứa với lòng ngày em đi anh sẽ không khóc nhưng sao lạ quá, công nhận bửa đưa em ra sân bay quê dễ sợ quê
+                </h5>
+                <h5>
+                    <span style="color: red;">02/10/2023</span>, Ngày này quan trọng lắm đóa nhe nhe
+                </h5>
+            </section>
+        </div>
+        <div class="col-12">
+            <h1>Dang Le Huu Tien</h1>
+
+        </div>
     </div>
 </body>
 
