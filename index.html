@@ -4,49 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <script src="JS/jquery-3.6.4.js"></script>
-    <script src="JS/bootstrap.js"></script>
-    <script src="JS/inLove.js"></script>
-    <link rel="stylesheet" href="CSS/inLove.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Together</title>
-    <script src="JS/tintuc.js"></script>
-    <style>
-        /* Điều chỉnh cho các màn hình có chiều rộng dưới 768px (điện thoại di động) */
-        @media (max-width: 768px) {
-            header hgroup {
-                font-size: 24px;
-                padding: 0.5em 1em;
-            }
 
-            .avt {
-                width: 100px;
-                height: 100px;
-            }
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    
+    <script src="JS/jquery-3.6.4.js"></script>
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/bootstrap.js"></script>
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="CSS/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="CSS/inLove.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/inLove.js"></script>
 
-            #info {
-                padding: 10px;
-                margin-top: 1rem;
-            }
-
-            #heart {
-                font-size: 32px;
-                padding-bottom: 1rem;
-            }
-
-            footer {
-                font-size: 1rem;
-            }
-
-            /* Thêm các điều chỉnh khác tùy thuộc vào nhu cầu của bạn */
-        }
-    </style>
 </head>
 
 <body>
+  
+    
+
     <div class="a">
         <header>
+            <div class="container">
             <div class="content">
                 <hgroup>
                     <div id="wrapper">
@@ -68,7 +53,7 @@
                                 <anni>...</anni>
                             </div>
                             <div class="two">
-                                <img src="IMG/1708.jpg" class="avt">
+                                <img src="IMG/main2.jpg" class="avt">
                                 <p class="Name">Nguyễn Thị Trúc Ly</p>
                             </div>
                         </div>
@@ -79,38 +64,80 @@
                         <footer>Thank you for your love 💕</footer>
                     </div>
 
-                    <script src="JS/inLove.js"></script>
+                    <!-- <script src="JS/inLove.js"></script> -->
                 </hgroup>
             </div>
             <div class="overlay"></div>
+            </div>
+        </div>
         </header>
         <div class="container">
             <section class="site">
                 <nav>
                     <a href="index.html">Home</a>
-                    <a href="Test.html">Test</a>
                     <a href="introduce.html">Introduce</a>
                     <a href="story.html">Story</a>
                 </nav>
                 <blockquote></blockquote>
-           
+                <div class="row" id="gallery">
+                    <div class="col-lg-10 m-auto">
+                        <div class="book-cake-img-slider">
+                            <div class="swiper-wrapper">
+                                <a href="IMG/h1.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h1.jpg)"></a>
+                                <a href="IMG/h2.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h2.jpg)"></a>
+                                <a href="IMG/h3.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h3.jpg)"></a>
+                                <a href="IMG/h5.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h5.jpg)"></a>
+                                <a href="IMG/h6.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h6.jpg)"></a>
+                                <a href="IMG/h7.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h7.jpg)"></a>
+                                <a href="IMG/h8.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h8.jpg)"></a>
+                                <a href="IMG/h9.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h9.jpg)"></a>
+                                <a href="IMG/h10.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h10.jpg)"></a>
+                                
+                                <a href="IMG/h11.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h11.jpg)"></a>
+                                <a href="IMG/h12.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h12.jpg)"></a>
+                                <a href="IMG/h13.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h13.jpg)"></a>
+                                <a href="IMG/h14.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h14.jpg)"></a>
+                                <a href="IMG/h15.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h15.jpg)"></a>
+                                <a href="IMG/h16.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h16.jpg)"></a>
+                                <a href="IMG/h17.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h17.jpg)"></a>
+                                <a href="IMG/h18.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h18.jpg)"></a>
+                                <a href="IMG/h19.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h19.jpg)"></a>
+                                <a href="IMG/h20.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h20.jpg)"></a>
+
+                                <a href="IMG/h21.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h21.jpg)"></a>
+                                <a href="IMG/h22.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h22.jpg)"></a>
+                                <a href="IMG/h23.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h23.jpg)"></a>
+                                <a href="IMG/h24.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h24.jpg)"></a>
+                                <a href="IMG/h25.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h25.jpg)"></a>
+                                <a href="IMG/h26.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h26.jpg)"></a>
+                                <a href="IMG/h27.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h27.jpg)"></a>
+                                <a href="IMG/h28.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h28.jpg)"></a>
+                                <a href="IMG/h29.jpg" data-fancybox="table-slider" class="book-cake-img back-img swiper-slide" style="background-image: url(IMG/h29.jpg)"></a>
+                            </div>
+                            <br><br><br><br>
+                            <div class="swiper-button-wp">
+                                <div class="swiper-button-prev swiper-button">
+                                    <i class="uil uil-angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button">
+                                    <i class="uil uil-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div><br><br>
             <h5>
-                Ngày <hientai>0</hientai>, 2 đứa tui đang "Yêu Xa" khoảng cách khá là xa đó, có bạn nào nghĩ
-                1 người
-                ở Nam còn người kia ở Bắc không nhể.
-                Hummmmm! Thật ra 1 người ở Việt Nam còn 1 người ở bên Hàn cơ:>> <br>
-                Chắc mn muốn biết lý do tại sao 2 tui đến với nhau được chứ giề. Tui là Hữu Tiến neeee trang
-                web này
-                tui viết ra để ôn lại kỷ niệm của tui với bồ yêu ó,
-                giờ tui sẽ cho mn biết câu chuyện tềnh yêu liền liền đâyyyy <br>
-                Tui xưng là t đi cho tình cảm hénnn
+                Trang chủ này anh viết cho bé ó <br>
+                <hientai>0</hientai>, ngày mà em vào web này anh chỉ muốn nói là ANH YÊU EM RẤT NHIỀU, thời gian ở bên em anh cảm thấy rất hạnh phúc lunnn.
+                Anh đã lưu lại những khoảng khắc của 2 đứa mình gòi nèeeee, cùng thưởng thức nó nhe bé!!!!
             </h5>  
                 <div>
-                    <h4>Chaaaaa <span style="color: red;">11/07/2023</span>, tròn 100 ngày 2 đứa yêu nhau nè. Hạnh phúc
+                    <p>Chaaaaa <span style="color: red;">11/07/2023</span>, tròn 100 ngày 2 đứa yêu nhau nè. Hạnh phúc
                     qué đi thoaiiii❤️‍🔥viết văn cho bé xài hết chất xám rồi á, bé mắc cười lúc tui ăn bột ngọt mới
-                    ghê:>> </h4>
+                    ghê:>> </p>
                 <img class="img1" src="IMG/MaQR.jpg" alt="" width="100px" style="float: left;">
-                <h5>
+                <p>
                     Nội dung của mã QR nèeeee, biết ai viết khumm:>> Đọc đi gòi biết nhoaaa<br>
                     Bé yêu của anh ơiiii! Nay cũng tròn 100 ngày 2 đứa mình yêu nhau rồi, anh cố gắng để 2
                     đứa không phải dừng lại ở con số 200, 500, 1000 ngày gì cả…Tại anh muốn sau này khái
@@ -135,7 +162,7 @@
                     Khoảng cách địa lý nó không có hề hấn gì tình yêu 2 đứa mình cả (3500km tuổi), quan
                     trọng là con tym của anh luôn hướng về em yêu đoá. À còn nữa còn nữa, anh muốn nói là: <br>
                     ❤️‍🔥ANH YÊU EM❤️‍🔥
-                </h5>
+                </p>
                 </div>
                 <table>
                     <tr>
@@ -144,30 +171,71 @@
                             <img src="IMG/2908v2.jpg" alt="" width="40%" style="float: left;">
                         </td>
                         <td>
-                            <h5>
+                            <p>
                                 <span style="color: red;">29/08/2023</span>, Ngày này là sinh nhật Hữu Tiến ó. Bé ơiiii, 
                                 anh đọc được lá thư của em gòi nè anh cảm ơn em nheee.
-                            </h5>
+                            </p>
                         </td>
                     </tr>
                 </table>
-                <h5>
+                <p>
                     <span style="color: red;">02/09/2023</span>, bé về lại Hàn Quốc mất tiêu òiii🥲 bé Ly về chỉ có 2 tuần thoai mà anh ghiền hơi của em quá trời quá đất. 
                     Thật sự anh không muốn xa em đâu, ngày mà em đi 2 đứa phải về lại quỹ đạo cũ rồi sao; Anh muốn được về lại Củ Chi quê em chơi lắm, mà anh không dám...Nó chứa nhiểu kỉ niệm của anh với em quá, 
                     2 tuần ở bên em thật sự khiến anh hạnh phúc á em cóa biết khum:>>
                     <br>Đã hứa với lòng ngày em đi anh sẽ không khóc nhưng sao lạ quá, công nhận bửa đưa em ra sân bay quê dễ sợ quê
-                </h5>
-                <h5>
-                    <span style="color: red;">02/10/2023</span>, Ngày này quan trọng lắm đóa nhe nhe
-                </h5>
-                <img src="IMG/main.jpg" alt="">
+                </p>
+                <p>
+                    <span style="color: red;">02/10/2023</span>, Ngày này quan trọng lắm đóa nhe nhe!!! anh với em quen nhau được nữa năm gòi ó. Sau ngần ấy thời gian thì anh thấy em tuy hơi hung dữ, hay cọc với hay phủ anh thiệt nhe 
+                    nhưng mà nhiều khi lại nhõng nhẽo với anh quá chòiiii. Đôi lúc em hỏi anh tại sao anh lại yêu em với cưng chiều em nhiều đến vuậy, anh cũng khum biết trả lời em sao lunnn!!!! Lý do anh yêu em là vì con người của em á, em là cô gái đáng yêu, giọng nói hay lại còn tinh tế
+                    màaaaaaa tính hơi nóng, hummm tính nóng cũng zuiiii chứ cuộc đời yên bình quá lại chán:>> Mà không phải ai sinh ra điều hợp nhau hết phải không! Anh với em cũng vậy, đôi khi 2 đứa có nhiều cái không cùng quan điểm nhưng từ trước đến giờ anh hong có mong muốn em thay đổi điều gì, anh chỉ mong là em cảm thấy thoải mái nhất khi ở bên cạnh anh; 
+                    còn việc thay đổi để phù hợp với nhau thì để anh làm điều đó là được gòiiii <br>
+                    ANH CẢM ƠN BÉ vì 6 tháng vừa qua đã ở bên anh nha, người ta nói: yêu xa dễ bị cấm sừng; Nhưng bé đi đâu, làm gì bé cũng gọi về cho anh á anh cảm thấy rất hạnh phúc với khum có gì phải sợ vụ đó cả:>> Bé 10 đỉmmmmmmm
+                    Nhiều lúc anh ước em về Việt Nam hôm 17/08/2023 là ngày kỉ niệm của 2 đứa mình lắm
+
+                </p>
             </section>
         </div>
         <div class="col-12">
             <h1>Dang Le Huu Tien</h1>
-
         </div>
     </div>
+
+    
+
+       <!-- jquery  -->
+       <script src="JS/jquery-3.5.1.min.js"></script>
+
+       <!-- bootstrap -->
+       <script src="JS/bootstrap.min.js"></script>
+       <script src="JS/popper.min.js"></script>
+   
+       <!-- fontawesome  -->
+       <script src="JS/font-awesome.min.js"></script>
+   
+       <!-- swiper slider  -->
+       <script src="JS/swiper-bundle.min.js"></script>
+   
+       <!-- mixitup -- filter  -->
+       <script src="JS/jquery.mixitup.min.js"></script>
+   
+       <!-- fancy box  -->
+       <script src="JS/jquery.fancybox.min.js"></script>
+   
+       <!-- parallax  -->
+       <script src="JS/parallax.min.js"></script>
+   
+       <!-- scroll trigger  -->
+       <script src="JS/ScrollTrigger.min.js"></script>
+       <!-- scroll to plugin  -->
+       <script src="JS/ScrollToPlugin.min.js"></script>
+   
+       <!-- smooth scroll  -->
+       <script src="JS/smooth-scroll.js"></script>
+       <!-- custom js  -->
+       <script src="JS/inLove.js"></script>
+
+
+
 </body>
 
 </html>

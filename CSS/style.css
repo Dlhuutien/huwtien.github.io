@@ -1,31 +1,458 @@
-.tintuc {
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 1200px;
+}
+
+html {
+    font: 1em/1.5 "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    font-size: 1.3em;
+}
+
+header {
+    background-color: antiquewhite;
+    height: 1200px;
+    position: relative;
+    overflow: hidden;
+    /* background: url(/huwtien.github.io/IMG/img_background.jpg); */
+    /* background: url(https://unsplash.imgix.net/45/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=857f07b76abac23a7fb7161cc7b12a46) center no-repeat; */
+    background-size: cover;
+}
+
+header .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+header h2 {
+    text-transform: uppercase;
+    margin-top: -.5em;
+}
+
+header hgroup {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
     text-align: center;
-    min-height: 340px;
-    height: 80vh;
-    border: 1px solid gray;
-    border-radius: 50px;
-    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: .5em 3em;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    background-image: url(/huwtien.github.io/IMG/img_background.jpg);
 }
 
-.tintuc:hover {
-    box-shadow: 5px 5px 5px #fcbc30;
+header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #333 center no-repeat;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0;
 }
 
-.tintuc h3 {
-    color: #0d0d25;
-    margin: 10px;
+img {
+    margin-right: 20px
+}
+
+.site {
+    padding: 20em 0;
+    text-align: center;
+    background-color: #efefef;
+    font-size: .8em;
+    color: #444;
+    position: relative
+}
+
+.site a {
+    /* Mau chu nav */
+    color: violet;
+    text-decoration: none;
+}
+
+.site a:hover {
+    color: #222;
+}
+
+.site nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Mau nen */
+    background: white;
+    width: 100%
+}
+
+.site nav a {
+    padding: 10px 30px;
+    font-size: 1.3em;
+    display: inline-block
+}
+
+.site nav a:hover {
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Introduce */
+.profile1 {
+    margin-left: 25px;
+    color: #b90d46;
+}
+
+.profile2 {
+    margin-top: 300px;
+    margin-left: 25px;
+    color: #b90d46;
+}
+
+h5 {
     padding: 10px;
 }
 
-.btnxemthem:hover {
-    background-color: #fcbc30;
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    background: #f3f3f5;
 }
-.chitiet{
-    border-top: 1px solid #fcbc30;
-    width: 80%;
-    margin: 25px auto;
+
+.body-fixed {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: auto;
+    left: auto;
 }
-.imgchitiet{
-    box-shadow: 3px 3px 5px gray;
+
+body,html {
+    overflow-x: hidden;
+}
+
+
+/* 
+@media screen and (min-width: 992px) {
 
 }
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1368px;
+    }
+}
+
+@media (min-width: 2100px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    p,
+    body,
+    button,
+    input {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    .section {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+    body {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 0 15px;
+    }
+
+
+} */
+
+
+/* ************************** */
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/* ******************** */
+
+/* .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+} */
+/* ****** scrollbar design ******** */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #bfbfbf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff8243;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f16620;
+}
+
+
+/* **************** */
+
+
+/* ****************** */
+
+
+
+.book-cake-img {
+    height: 70vh;
+    min-height: 500px;
+    border-radius: 30px;
+}
+
+.back-img {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-wp {
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: unset;
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    font-size: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+    color: #0d0d25;
+    background: #ffffff;
+    box-shadow: -20px 20px 60px #d4d4d4, 20px -20px 60px #ffffff;
+    padding-top: 1px;
+    padding-right: 2px;
+    transition: 0.3s;
+}
+
+.swiper-button-next {
+    box-shadow: 20px 20px 60px #d4d4d4, -20px -20px 60px #ffffff;
+    padding-left: 3px;
+}
+
+.swiper-button-prev:hover {
+    box-shadow: inset 5px 5px 20px #d4d4d4, inset -5px -5px 20px #ffffff;
+    color: #fcbc30;
+}
+
+.swiper-button-next:hover {
+    box-shadow: inset -5px 5px 20px #d4d4d4, inset 5px -5px 20px #ffffff;
+    color: #fcbc30;
+}
+
+.swiper-pagination {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 60px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 25px 28px 55px #d4d4d4, -28px -28px 55px #ffffff;
+    max-width: fit-content;
+    left: 50% !important;
+    transform: translate(-50%, 0);
+    bottom: 0 !important;
+    color: #000;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0px 10px !important;
+    border-radius: 10px;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.swiper-pagination-bullet-active {
+    background: #fcbc30;
+    width: 30px;
+}
+
+
+/* *************** */
+
+
+/* **************** responsiveness ***************** */
+/* 
+@media (min-width: 2100px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    p,
+    body,
+    button,
+    input {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+   
+}
+
+@media (max-width: 991px) {
+
+  
+    #gallery {
+        padding-top: 90px;
+    }
+
+    
+    body {
+        height: auto !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+   
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 30px;
+    }
+
+
+  
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+} */
+
+
+ /* Điều chỉnh cho các màn hình có chiều rộng dưới 768px (điện thoại di động) */
+ @media (max-width: 768px) {
+    header hgroup {
+        font-size: 24px;
+        padding: 0.5em 1em;
+    }
+
+    .avt {
+        width: 100px;
+        height: 100px;
+    }
+
+    #info {
+        padding: 10px;
+        margin-top: 1rem;
+    }
+
+    #heart {
+        font-size: 32px;
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+}
+
+/*  */
+
+
