@@ -476,7 +476,7 @@ p {
 .avt {
     /* Avatar */
     width: 160px;
-    height: 210px;
+    height: 220px;
     border-radius: 50%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
 }
