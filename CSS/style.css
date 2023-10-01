@@ -1,22 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    height: 1200px;
-}
-
-html {
-    font: 1em/1.5 "Lato", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizelegibility;
-}
-
-body {
-    font-size: 1.3em;
-}
 
 header {
     background-color: antiquewhite;
@@ -78,9 +61,9 @@ header .overlay {
     opacity: 0;
 }
 
-img {
+/* img {
     margin-right: 20px
-}
+} */
 
 .site {
     padding: 20em 0;
@@ -133,7 +116,11 @@ img {
     margin-left: 25px;
     color: #b90d46;
 }
-
+.profile1:hover,
+.profile2:hover{
+    color: #f3276b;
+    box-shadow: 2px 3px 3px #b90d46;
+}
 h5 {
     padding: 10px;
 }
@@ -456,3 +443,25 @@ p {
 /*  */
 
 
+
+.border-text {
+    padding: 10px;
+    border: 1px solid wheat;
+}
+
+.bor :hover {
+    border-radius: 50px;
+    transition: all 500ms;
+}
+
+.border-text:hover {
+    box-shadow: 2px 5px 10px wheat;
+    /* font-size: 21px; */
+}
+
+.bor {
+    width: 100%;
+    margin: auto;
+}
+
+/*  */

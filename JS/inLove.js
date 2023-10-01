@@ -2,7 +2,7 @@
 
 // Dem ngay
 const yourDate = new Date("2023-04-02T00:00:00"),
-music = ['ido', 'noinaycoanh', 'nguoiamphu'];
+music = ['cogainaylacuaai','yeunhaunhebanthan','emkhongbietnua'];
 
 document.addEventListener('DOMContentLoaded', function(){
     var rootTime = document.querySelector("time");
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // Tính tuổi
 // Huu Tien
-const dateOfBirth = new Date("2003-08-29");
+const dateOfBirth = new Date("2002-08-29");
 document.addEventListener('DOMContentLoaded', function(){
     const currentDate = new Date();
     const ageInMilliseconds = currentDate - dateOfBirth;
@@ -123,6 +123,7 @@ scroller.init();
 
 // Button
 $(document).ready(function($) {
+
     "use strict";
     var book_table = new Swiper(".book-cake-img-slider", {
         slidesPerView: 1,
@@ -154,3 +155,8 @@ $(document).ready(function($) {
 
 });
 // 
+
+  
+  
+  
+  

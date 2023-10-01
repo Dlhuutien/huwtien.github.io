@@ -9,7 +9,7 @@
     <script src="JS/bootstrap.js"></script>
     <script src="JS/inLove.js"></script>
     <link rel="stylesheet" href="CSS/inLove.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Together</title>
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="CSS/jquery.fancybox.min.css">
     <!-- custom css  -->
     <link rel="stylesheet" href="CSS/style.css">
-
+    <style>
+        th, td {
+            padding-bottom: 45px;
+          }
+    </style>
 </head>
 
 <body>
@@ -34,96 +38,162 @@
                 <div id="wrapper">
                     <h1 class="logo">LOVE DAYS</h1>
                     <div id="clock-box">
-                          <div id="clock">
-                                <date>0 DAYS</date>
-                                <time>00:00:00</time>
-                           </div>
-                     </div>
-                     
-                     <div id="info">
-                           <div class="one">
-                                 <img src="IMG/main.jpg" class="avt">
-                                 <p class="Name">Đặng Lê Hữu Tiến</p>
-                           </div>
-                           <div id="heart">
-                                <div class="Tym">❤</div>
-                                <anni>...</anni>
-                           </div>
-                           <div class="two">
-                                 <img src="IMG/main2.jpg" class="avt">
-                                 <p class="Name">Nguyễn Thị Trúc Ly</p>
-                           </div>
-                     </div>
-                     
-                     <div id="music">
-                           <audio loop autoplay controls>Your browser does not support the audio element.</audio>
-                     </div>
-                     <footer>Thank you for your love 💕</footer>
-               </div> 
-               
-               <script src="JS/inLove.js"></script>
+                        <div id="clock">
+                            <date>0 DAYS</date>
+                            <time>00:00:00</time>
+                        </div>
+                    </div>
+
+                    <div id="info">
+                        <div class="one">
+                            <img src="IMG/main.jpg" class="avt">
+                            <p class="Name">Đặng Lê Hữu Tiến</p>
+                        </div>
+                        <div id="heart">
+                            <div class="Tym">❤</div>
+                            <anni>...</anni>
+                        </div>
+                        <div class="two">
+                            <img src="IMG/main2.jpg" class="avt">
+                            <p class="Name">Nguyễn Thị Trúc Ly</p>
+                        </div>
+                    </div>
+
+                    <div id="music">
+                        <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+                    </div>
+                    <!-- <footer>Thank you for your love 💕</footer> -->
+                </div>
+
+                <script src="JS/inLove.js"></script>
             </hgroup>
         </div>
         <div class="overlay"></div>
     </header>
     <div class="container">
         <section class="site">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="introduce.html">Introduce</a>
-                    <a href="story.html">Story</a>
-                </nav>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="introduce.html">Introduce</a>
+                <a href="story.html">Story</a>
+            </nav>
             <blockquote></blockquote>
-            <div class="profile1">
-                <img src="IMG/tien1.jpg" alt="" width="200px" style="float: left;">
-                <h1>Đặng Lê Hữu Tiến (Til)</h1>
-                <h2>29/08/2003</h2>
-                <h3>Cung: Xử nữ</h3>
-                <h3 style="font-size: 25px;"><age>0</age><span> tuổi</span></h3>
-            </div>  
-            <div class="profile2">
-                <img src="IMG/ly1.jpg" alt="" width="200px" style="float: left;">
-                <h1>Nguyễn Thị Trúc Ly (Bé Lit)</h1>
-                <h2>16/02/2003</h2>
-                <h3>Cung: Bảo bình</h3>
-                <h3 style="font-size: 25px;"><age2>0</age2><span> tuổi</span></h3>
-            </div>
-        </section>
-    </div>
-    <div class="col-12">
-        <h1>Dang Le Huu Tien</h1>
+
+            <svg viewbox="0 0 100 20">
+                <defs>
+                  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="5%" stop-color="#b90d46"/>
+                    <stop offset="95%" stop-color="#123752"/>
+                  </linearGradient>
+                  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                      <animateTransform
+                          attributeName="transform"
+                          begin="0s"
+                          dur="1.5s"
+                          type="translate"
+                          from="0,0"
+                          to="40,0"
+                          repeatCount="indefinite" />
+                    </path>
+                  </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="13.7" fill="url(#gradient)" fill-opacity="0.1">Profile neeeeee</text>
+                <text text-anchor="middle" x="50" y="15" font-size="13.7" fill="url(#wave)"  fill-opacity="0.6">Profile neeeeee</text>
+              </svg><br><br><br>
+              
+
+            <table style="margin: 0 auto;">
+                <tr class="profile1">
+                    <td>
+                        <a data-fancybox="gallery" href="IMG/tien1.jpg">
+                            <img src="IMG/tien1.jpg" alt="" width="200px" style="float: left;">
+                        </a>
+                    </td>
+                    <td>
+                        <h1>Đặng Lê Hữu Tiến (Til)</h1>
+                        <h2>29/08/2002</h2>
+                        <h3>Cung: Xử nữ♍️ </h3>
+                        <h3 style="font-size: 25px;">
+                            <age>0</age><span> tuổi</span>
+                        </h3>
+                        <div class="button-container">
+                            <a href="https://www.facebook.com/huwtien/">
+                                <div class="glass-btn blue-btn">
+                                    <img src="IMG/facebook.jpeg" alt="facebook" style="width: 3em;">
+                                </div>
+                            </a>
+                            <a href="https://instagram.com/huw_tien?igshid=OGQ5ZDc2ODk2ZA==">
+                                <div class="glass-btn amber-btn">
+                                    <img src="IMG/instagram.jpeg" alt="instagram" style="width: 3em;">
+                                </div>
+                            </a>
+                        </div><br><br><br><br>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr class="profile2">
+                    <td><br><br>
+                        <a data-fancybox="gallery" href="IMG/h15.jpg">
+                            <img src="IMG/h15.jpg" alt="" width="200px" style="float: left;">
+                        </a>
+                    </td>
+                    <td>
+                        <h1>Nguyễn Thị Trúc Ly (Bé Lit)</h1>
+                        <h2>16/02/2003</h2>
+                        <h3>Cung: Bảo bình♒️ </h3>
+                        <h3 style="font-size: 25px;">
+                            <age2>0</age2><span> tuổi</span>
+                        </h3>
+                        <div class="button-container">
+                            <a href="https://www.facebook.com/trucly.tt2">
+                                <div class="glass-btn blue-btn">
+                                    <img src="IMG/facebook.jpeg" alt="facebook" style="width: 3em;">
+                                </div>
+                            </a>
+                            <a href="https://instagram.com/nguyen.truc.ly16?igshid=OGQ5ZDc2ODk2ZA==">
+                                <div class="glass-btn amber-btn">
+                                    <img src="IMG/instagram.jpeg" alt="instagram" style="width: 3em;">
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section><br><br><br>
     </div>
 
-     <!-- jquery  -->
-       <script src="JS/jquery-3.5.1.min.js"></script>
+    <!-- jquery  -->
+    <script src="JS/jquery-3.5.1.min.js"></script>
 
-       <!-- bootstrap -->
-       <script src="JS/bootstrap.min.js"></script>
-       <script src="JS/popper.min.js"></script>
-   
-       <!-- fontawesome  -->
-       <script src="JS/font-awesome.min.js"></script>
-   
-       <!-- swiper slider  -->
-       <script src="JS/swiper-bundle.min.js"></script>
-   
-       <!-- mixitup -- filter  -->
-       <script src="JS/jquery.mixitup.min.js"></script>
-   
-       <!-- fancy box  -->
-       <script src="JS/jquery.fancybox.min.js"></script>
-   
-       <!-- parallax  -->
-       <script src="JS/parallax.min.js"></script>
-   
-       <!-- scroll trigger  -->
-       <script src="JS/ScrollTrigger.min.js"></script>
-       <!-- scroll to plugin  -->
-       <script src="JS/ScrollToPlugin.min.js"></script>
-   
-       <!-- smooth scroll  -->
-       <script src="JS/smooth-scroll.js"></script>
-       <script src="JS/inLove.js"></script>
+    <!-- bootstrap -->
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="JS/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="JS/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="JS/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="JS/parallax.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="JS/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="JS/ScrollToPlugin.min.js"></script>
+
+    <!-- smooth scroll  -->
+    <script src="JS/smooth-scroll.js"></script>
+    <script src="JS/inLove.js"></script>
 
 
 </body>
